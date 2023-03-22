@@ -5,19 +5,21 @@ import Read from './Components/Read';
 import Teacher from './Components/Teacher';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar';
+import Addstudent from './Components/Addstudent';
 
 function App() {
   return (
     <div className="App">
       {/*<Read></Read>*/}
     {/*<Teacher></Teacher>*/}
-    <BrowserRouter>
+   <BrowserRouter>
       <Navbar></Navbar>
         <Routes>
-            <Route path='/read' element={<Read/>}></Route>
-            <Route path='/teacher' element={<Teacher/>}></Route>
+            <Route path='/Read' element={<Read/>}></Route>
+            <Route path='/Addstudent' element={<Addstudent/>}></Route>
       </Routes>
-      </BrowserRouter>
+  </BrowserRouter>
+  {/*<Addstudent></Addstudent>*/}
     </div>
   );
 }

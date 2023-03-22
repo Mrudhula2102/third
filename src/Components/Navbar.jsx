@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div>
       <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+      <AppBar position="static" color='secondary'>
         <Toolbar>
           <IconButton
             size="large"
@@ -17,10 +17,10 @@ const Navbar = () => {
           >
          </IconButton>
           <Typography align='left' variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            React Dom
+          Nirmala College of Arts & Science
           </Typography>
-          <Button color="inherit"><Link to='/Read' style={{color:'white'}}>Students</Link></Button>
-          <Button color="inherit"><Link to='/Teacher' style={{color:'white'}}>Teachers</Link></Button>
+          <Button color="inherit"><Link to='/Read' style={{color:'white'}}>View</Link></Button>
+          <Button color="inherit"><Link to='/Addstudent' style={{color:'white'}}>Add</Link></Button>
         </Toolbar>
       </AppBar>
     </Box>
