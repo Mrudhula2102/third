@@ -65,7 +65,6 @@ const Read = () => {
       <br></br>
       <br></br>
       {finaljsx}
-      
     </div>
   )
 }
